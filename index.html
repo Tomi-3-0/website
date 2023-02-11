@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Caleb Omoniyi - Development, Sports and music</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!-- go packages hosted on github proper-->
+    <meta name="go-import" content="zeekay.io/zip git https://github.com/zeekay/zip">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Omoniyi Caleb</h1>
+            <p>i ♥ programming, Sports, music and arts.</p>
+            <p><a href="http://github.com/zeekay/zeekay.github.com">source</a>? made with <a href="http://github.com/zeekay/brief">brief</a>.</p>
+            <!-- p.view-->
+            <!--   a(href='#projects', onclick='app.nav.projects()') Projects-->
+        </header>
+        <section>
+            <p>
+                <h2 id="hi-i-m-zeekay-">hi! i&#39;m <em>zeekay</em>.</h2>
+                <p>wanna chat? feeling a bit adventurous?</p>
+                <pre><code><span class="title">curl</span> zeekay.chat | python</code></pre>
+                <p>wanna be social?</p>
+                <ul>
+                    <li><a href="https://github.com/zeekay">github</a></li>
+                    <li><a href="https://instagram.com/z33k4y">instagram</a></li>
+                    <li><a href="https://soundcloud.com/zeekay">soundcloud</a></li>
+                    <li><a href="https://stackoverflow.com/users/641766/zeekay">stackoverflow</a></li>
+                    <li><a href="https://twitter.com/zeekay">twitter</a></li>
+                    <li><a href="https://www.linkedin.com/in/zeekay">linkedin</a></li>
+                </ul>
+            </p>
+        </section>
+        <footer>
+            <p>© Copyright,
+                <a href="https://github.com/zeekay">zeekay</a>
+            </p>
+        </footer>
+    </div>
+</body>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="js/scale.fix.js"></script>
+<script src="js/runtime.min.js"></script>
+<script src="/js/konami.js"></script>
+<script src="js/app.js"></script>
+<script>
+    var app = require('/app');
+
+    // Easter egg for all you snoopy folks.
+    var easterEgg = new Konami();
+    easterEgg.code = function() {
+        alert("Don't you just hate JavaScript alerts?")
+    };
+    easterEgg.load();
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-23068702-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+</html>

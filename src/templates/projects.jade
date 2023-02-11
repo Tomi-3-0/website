@@ -1,0 +1,9 @@
+ul
+  for project in projects
+    li
+      ul
+        li
+          a(href=project.html_url) #{project.name}
+        li watchers: #{project.watchers}
+        li forks: #{project.forks}
+        li updated: #{project.updated_at}
