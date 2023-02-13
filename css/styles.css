@@ -195,7 +195,7 @@ hr {
 
 footer {
     width: 270px;
-    float: left;
+    /* float: left; */
     position: fixed;
     bottom: 50px;
 }
