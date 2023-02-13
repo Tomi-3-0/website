@@ -15,7 +15,7 @@ if not sys.stdin.isatty():
 send = lambda s: irc.send(s.encode('UTF-8'))
 
 def hello():
-    send('PRIVMSG zeekay :hello, i am from the internet!\r\n')
+    send('hello, i am from the internet!\r\n')
     sys.stdout.write('> ')
     sys.stdout.flush()
 
