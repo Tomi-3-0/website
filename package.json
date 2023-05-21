@@ -1,17 +1,17 @@
 {
-  "name": "zeekay.github.com",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "ssh://gh/zeekay/zeekay.github.com"
-  },
-  "license": "BSD",
-  "description": "I build web applications, hack on open source code, drink too much coffee, and make music.",
-  "dependencies": {
-    "brief": "~0.6.1"
-  }
+    "name": "Tomi-3-0.github.com",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://tomi-3-0.github.io/website/"
+    },
+    "license": "BSD",
+    "description": "I love development impacts human lives especially in the field of climate change, health and finance",
+    "dependencies": {
+        "brief": "~0.6.1"
+    }
 }

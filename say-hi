@@ -26,7 +26,7 @@ def goodbye(*args):
 
 signal.signal(signal.SIGINT, goodbye)
 
-print('Hi {0}! Poking zk... (press CTRL-C to exit)'.format(username))
+print('Hi {0}! Poking Tomi... (press CTRL-C to exit)'.format(username))
 irc.connect(('irc.freenode.net', 6667))
 send('NICK i_am_{0}\r\n'.format(username))
 send('USER {0} {1} irc.freenode.net :{0}\r\n'.format(username, hostname))

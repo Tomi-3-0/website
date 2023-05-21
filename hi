@@ -15,7 +15,7 @@ if not sys.stdin.isatty():
 send = lambda s: irc.send(s.encode('UTF-8'))
 
 def hello():
-    send('PRIVMSG zeekay :hello, i am from the internet!\r\n')
+    send('PRIVMSG :hello, i am from the internet!\r\n')
     sys.stdout.write('> ')
     sys.stdout.flush()
 
@@ -26,7 +26,7 @@ def goodbye(*args):
 
 signal.signal(signal.SIGINT, goodbye)
 
-print('Hi {0}! Poking zk... (press CTRL-C to exit)'.format(username))
+print('Hi {0}! Poking... (press CTRL-C to exit)'.format(username))
 irc.connect(('irc.freenode.net', 6667))
 send('NICK i_am_{0}\r\n'.format(username))
 send('USER {0} {1} irc.freenode.net :{0}\r\n'.format(username, hostname))
@@ -39,7 +39,7 @@ while True:
             line = i.readline()
             if line.startswith('/'):
                 send(line[1:])
-            send('PRIVMSG zeekay :{0}\r\n'.format(line))
+            send('PRIVMSG ze :{0}\r\n'.format(line))
             sys.stdout.write('> ')
             sys.stdout.flush()
 

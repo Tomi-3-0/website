@@ -13,8 +13,8 @@ wanna be social?
 - [twitter][twitter]
 
 [github]:        https://github.com/Tomi-3-0
-[instagram]:     https://instagram.com/z33k4y
-[linkedin]:      https://www.linkedin.com/in/zeekay
-[soundcloud]:    https://soundcloud.com/zeekay
-[stackoverflow]: http://stackoverflow.com/users/641766/zeekay
-[twitter]:       https://twitter.com/zeekay
+[instagram]:     https://instagram.com/tomi
+[linkedin]:      https://www.linkedin.com/in/tomi
+[soundcloud]:    https://soundcloud.com/tomi
+[stackoverflow]: http://stackoverflow.com/users/641766/tomi
+[twitter]:       https://twitter.com/tomi
