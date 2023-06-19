@@ -1,7 +1,4 @@
 ## hi! i'm *Tomi*.
-wanna chat? feeling a bit adventurous?
-
-    [whatsapp]:(https://wa.me/1XXXXXXXXXX?text=Hi!%20I'm%20<your_name>%20from%20the%20internet%20....)
 
 wanna be social?
 
