@@ -1,36 +1,23 @@
-function scrollUpOrDown(_this, state) {
-    var portImg = _this.parentNode.parentNode.querySelector('img.item');
-    var height = portImg.clientHeight;
-
-    if (state.id > -1) {
-        clearInterval(state.id);
-        state.dir *= -1;
-    }
-
-    if (state.pos < 0) {
-        state.pos = 1;
-    }
-    state.id = setInterval(frame, 5);
-
-    function frame() {
-        if ((state.pos == height - 500 && state.dir > 0) || (state.pos == 0 && state.dir < 0)) {
-            clearInterval(state.id);
-        } else {
-            state.pos += state.dir;
-            portImg.style.top = - +state.pos + "px";
-        }
-    }
-}
-
-for (const button of document.querySelectorAll("button.portScroll")) {
-    let scollingState = {
-        pos: -1,
-        id: -1,
-        dir: 1
-    };
-    if (button.classList.contains("down")) {
-        button.addEventListener("click", function() {
-            scrollUpOrDown(this, scollingState);
-        });
-    }
-}
+  /*Downloaded from https://www.codeseek.co/ezra_siton/mixitup-fancybox3-JydYqm */
+  // 1. querySelector
+  var containerEl = document.querySelector(".portfolio-item");
+  // 2. Passing the configuration object inline
+  //https://www.kunkalabs.com/mixitup/docs/configuration-object/
+  var mixer = mixitup(containerEl, {
+      animation: {
+          effects: "fade translateZ(-100px)",
+          effectsIn: "fade translateY(-100%)",
+          easing: "cubic-bezier(0.645, 0.045, 0.355, 1)"
+      }
+  });
+  // fancybox insilaze & options //
+  $("[data-fancybox]").fancybox({
+      loop: true,
+      hash: true,
+      transitionEffect: "slide",
+      /* zoom VS next////////////////////
+      clickContent - i modify the deafult - now when you click on the image you go to the next image - i more like this approach than zoom on desktop (This idea was in the classic/first lightbox) */
+      clickContent: function(current, event) {
+          return current.type === "image" ? "next" : false;
+      }
+  });

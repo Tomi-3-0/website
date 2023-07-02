@@ -3,7 +3,7 @@
 wanna be social?
 
 - [github][github]
-- [instagram][instagram]
+
 - [linkedin][linkedin]
 - [soundcloud][soundcloud]
 - [stackoverflow][stackoverflow]
