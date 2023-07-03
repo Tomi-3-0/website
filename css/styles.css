@@ -28,10 +28,6 @@ dl {
     color: #ffffff;
 }
 
-.connect {
-    margin-top: 15px;
-}
-
 span.heart {
     color: rgb(245, 9, 9);
 }
@@ -42,8 +38,9 @@ h3 {
     line-height: 1.1;
 }
 
-h1 {
+.caleb {
     font-size: 30px;
+    font-weight: bold;
 }
 
 h2 {
@@ -64,11 +61,11 @@ h4 {
     margin: 0 20px 20px;
 }
 
-img {
+.image {
     border-radius: 50%;
-    max-width: 500px;
-    height: 200px;
-    margin: 20px 0px, 0px, 0px;
+    display: block;
+    margin: 0 15px 20px;
+    width: 50%;
 }
 
 a {
@@ -91,7 +88,7 @@ a small {
 }
 
 .wrapper {
-    width: 860px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -204,7 +201,7 @@ header ul a strong {
 }
 
 section {
-    width: 600px;
+    width: 75%;
     float: right;
     padding-bottom: 50px;
     margin-top: -15px;
@@ -290,11 +287,6 @@ screen and (max-width: 480px) {
     header ul {
         display: none;
     }
-    h4 {
-        /* text-align: center; */
-        color: #ffffff;
-        margin: 0 0px 20px;
-    }
 }
 
 @media print {
@@ -311,6 +303,8 @@ ul {
 
 ul li {
     list-style: none;
+    display: inline;
+    padding: 2px;
 }
 
 li {
