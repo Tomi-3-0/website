@@ -67,6 +67,7 @@ p {
 
 .portfolio-item {
     padding-top: 30px;
+    align-items: center;
 }
 
 .pd {
@@ -179,3 +180,13 @@ p {
 
 
 /* Extra small devices (portrait phones, less than 576px)*/
+
+@media print,
+screen and (max-width: 576px) {
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
