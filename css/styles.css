@@ -62,7 +62,7 @@ h4 {
 }
 
 .image {
-    border-radius: 10%;
+    border-radius: 50%;
     display: block;
     margin: 0 15px 20px;
     width: 50%;
@@ -140,7 +140,7 @@ img {
 }
 
 header {
-    width: 270px;
+    width: 300px;
     float: left;
     position: fixed;
 }
@@ -203,7 +203,7 @@ header ul a strong {
 section {
     width: 75%;
     float: right;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     margin-top: -15px;
 }
 
@@ -244,7 +244,7 @@ screen and (max-width: 960px) {
         width: auto;
     }
     header {
-        padding-right: 320px;
+        padding-right: 350px;
     }
     .link-section {
         /* border: 1px solid #e5e5e5;
