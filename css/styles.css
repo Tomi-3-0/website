@@ -218,7 +218,7 @@ small {
 footer {
     width: 270px;
     /* float: left; */
-    position: static;
+    position: fixed;
     bottom: 50px;
 }
 
