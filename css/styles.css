@@ -286,6 +286,17 @@ screen and (max-width: 480px) {
     header ul {
         display: none;
     }
+    img {
+        border-radius: 50%;
+        display: block;
+        margin: 0 0px 20px;
+        width: 50%;
+    }
+    h4 {
+        /* text-align: center; */
+        color: #ffffff;
+        margin: 0 0px 20px;
+    }
 }
 
 @media print {
