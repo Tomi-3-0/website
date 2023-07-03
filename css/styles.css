@@ -3,8 +3,9 @@ body {
     padding: 50px;
     font: 15px/1.2 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
     letter-spacing: .2px;
-    color: #777;
-    font-weight: 300;
+    color: #040404;
+    background-color: #000;
+    font-weight: 3000;
 }
 
 h1,
@@ -14,7 +15,7 @@ h4,
 h5,
 h6,
 h3 {
-    color: #222;
+    color: #ffffff;
     margin: 0 0 20px;
 }
 
@@ -25,6 +26,11 @@ table,
 pre,
 dl {
     margin: 0 0 20px;
+    color: #ffffff;
+}
+
+span.heart {
+    color: rgb(245, 9, 9);
 }
 
 h1,
@@ -34,11 +40,11 @@ h3 {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 30px;
 }
 
 h2 {
-    color: #393939;
+    color: #f0f0f0;
     margin-bottom: 21px;
 }
 
@@ -46,11 +52,17 @@ h3,
 h4,
 h5,
 h6 {
-    color: #494949;
+    color: #f0f0f0;
 }
 
 a {
     color: #39c;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+a.whatsapp {
+    color: rgb(3, 145, 69);
     font-weight: 400;
     text-decoration: none;
 }
